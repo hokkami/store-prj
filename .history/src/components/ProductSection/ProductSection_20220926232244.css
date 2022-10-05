@@ -1,0 +1,17 @@
+.test-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.card-home{
+    width: 300px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center{
+   margin-right: 30px;
+}

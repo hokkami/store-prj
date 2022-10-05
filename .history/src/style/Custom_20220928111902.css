@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "iranyekanwebregular";
+    src: url("../fonts/iranyekanwebregular.woff") format("woff")
+}
+
+@font-face {
+    font-family: "iranyekanwebmedium";
+    src: url("../fonts/iranyekanwebmedium.woff") format("woff")
+}
+
+
+@font-face {
+    font-family: "YekanBakhBold";
+    src: url("../fonts/YekanBakhBold.woff") format("woff")
+}
+
+
+@font-face {
+    font-family: "YekanBakhHeavy";
+    src: url("../fonts/YekanBakhHeavy.woff") format("woff")
+}
+
+
+@font-face {
+    font-family: "YekanBakhMedium";
+    src: url("../fonts/YekanBakhMedium.woff") format("woff")
+}
+
+@font-face {
+    font-family: "IranNastaliq";
+    src: url("../fonts/IranNastaliq.ttf") format("ttf")
+}
+
+:root{
+--white:#ffffff;
+--bgColor: #eeedf1;
+--black:#001219;
+--red:#ff0000;
+/* --gold: #c59d5f; */
+--gold: #daa520;
+--transition: all 0.3s linear;
+--brown :#d1a04d;
+--darkgray:#aab1b1;
+
+
+}
+body{
+    background:var(--bgColor);
+}
+
+*,html,body{
+    font-family: 'YekanBakhMedium';
+}

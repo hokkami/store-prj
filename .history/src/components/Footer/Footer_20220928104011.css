@@ -1,0 +1,159 @@
+.footer-main-section {
+  display: block;
+  background-color: rgb(33, 37, 41);
+  padding-bottom: 10px;
+  padding: ;
+}
+
+.footer-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-top-item {
+  flex: 1;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.aboutUs-items {
+  padding-right: 55px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: var(--gold);
+  list-style: none;
+  line-height: 3rem;
+}
+
+.aboutUs-item {
+  text-decoration: none;
+  color: var(--darkgray);
+}
+
+.aboutUs-item:hover {
+  color:var(--gold);
+}
+
+.title-header-section {
+  font-size: 1.5rem;
+  color: var(--brown);
+  margin-right: 50px;
+}
+
+.register-comment-form {
+  margin-right: 60px;
+}
+
+.form-field-elem {
+  width: 210px;
+  height: 40px;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 7px 7px;
+  outline: none;
+}
+
+#description {
+  width: 350px;
+  height: 120px;
+  padding: 2%;
+}
+
+.btn-submit {
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  margin-right: 60px;
+  border-right: 50px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--brown);
+}
+
+.error-elem {
+  margin-top: 5px;
+  color: red;
+  font-size: 0.6rem;
+}
+
+.success-message {
+  font-size: 1rem;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 105px;
+  font-family: "iranyekanwebmedium";
+  color: #2d3b39;
+}
+
+.social-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 50px;
+  /* border: 1px solid var(--brown); */
+  margin: 30px 260px 10px 15px;
+  border-radius: 5px;
+  padding-top: 5px;
+  background-color: #202222;
+  box-shadow: 1px 1px 3px 2px rgba(41, 42, 43, 0.589);
+}
+
+.right-side-social{
+color: var(--gold);
+margin-right: 50px;
+padding-top: 15px;
+}
+
+.left-side-social{
+  direction: ltr;
+}
+
+.social-media-items {
+  color: var(--gold);
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.contactU-list {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.contactUs-item {
+  color: var(--darkgray);
+  margin: 15px 10px 25px 0;
+}
+
+.location-desc {
+  margin-top: 100px;
+  font-size: 1rem;
+}
+
+.icons {
+  font-size: 1.5rem;
+  color: var(--darkgray);
+  margin-left: 5px;
+}
+
+.work-hours {
+  list-style: none;
+}
+/* 
+.work-hours :nth-child(2) {
+  margin-right: 20px;
+} */
+/* 
+.work-hours :last-child {
+  margin-right: 20px;
+} */

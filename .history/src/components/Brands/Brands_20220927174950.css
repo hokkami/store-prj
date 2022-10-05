@@ -1,0 +1,17 @@
+.swiper {
+    width: 88%;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    transition-duration:500ms;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }

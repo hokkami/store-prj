@@ -1,0 +1,15 @@
+.main-container-home {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-container {
+  align-items: center;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  text-align: justify;
+  margin: 40px;
+  background-color: aquamarine;
+  padding:2rem 5rem;
+}
+

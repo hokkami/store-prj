@@ -1,0 +1,72 @@
+.contactUs-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: c;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+.contactUs-right-side{
+    flex: 1;
+    text-align: inherit;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 10px rgba(196, 194, 194, 0.829);
+    border-radius: 10px;
+}
+
+.contactUs-input-container{
+    text-align: center;
+}
+.elem-input{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin: 20px 0;
+    padding-right: 8px;
+    outline:none;
+}
+
+.fullname{
+    margin-left: 10px;
+}
+
+.desc{
+    width: 78%;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+}
+
+.contactUs-textaria{
+    text-align: center;
+}
+
+.btn-desc{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--gold);
+    width: 150px;
+    height: 30px;
+    color: var(--white);
+    margin: 10px 60px 0;
+}
+
+.btn-desc:hover{
+    background-color: var(--darkgray);
+    transition: 1s;
+    color: var(--dark);
+}
+
+.contactUs-left-side{
+    flex: 1;
+    text-align: initial;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 10px rgba(196, 194, 194, 0.829);
+    border-radius: 10px;
+
+}

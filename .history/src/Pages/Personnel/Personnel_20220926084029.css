@@ -1,0 +1,45 @@
+.personnel-main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 50px;
+  
+}
+
+.personnel-card-container {
+  display: flex;
+  align-items: flex-start;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 5px 5px 29px 10px rgb(18, 66 ,101 , 8%);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  margin: 50px 50px 50px 0;
+}
+
+.personnel-img {
+  flex: 1;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.personnel-img img {
+  width: 100%;
+  height: auto;
+}
+
+.personnel-body {
+  flex: 1;
+  margin: 15px;
+}
+
+.personnel-body h6{
+    color: var(--darkgray);
+}
+
+.personnel-body p{
+    margin-top: 40px;
+    text-align: justify;
+}

@@ -1,0 +1,29 @@
+.main-container-header {
+  /* position: relative; */
+  margin-top: 5rem;
+  width: 100%;
+  height: 600px;
+}
+.header-img-item {
+  max-width: 1500px;
+  width: 100%;
+  height: 700px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  background-color: var(--gold);
+}
+
+.swiper-slide {
+  width: 100%;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

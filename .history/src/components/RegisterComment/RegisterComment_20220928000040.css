@@ -1,0 +1,62 @@
+
+.form-container{
+    width: 100%;
+    height: 480px;
+    text-align: right;
+    background-size: cover;
+    margin: 25px 0;
+}
+
+.form-title{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.register-comment{
+    width: 30%;
+    height: 40%;
+    display:inline-block ;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    margin-right: 65px;
+}
+
+.form-field-elem{
+    width: 210px;
+    height: 40px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 7px 7px ;
+    outline: none;
+}
+
+
+.btn-submit{
+    width: 210px;
+    height: 40px;
+    margin-top: 20px;
+    border-right: 50px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color:rgba(88, 177, 159,0.5)
+    
+}
+
+.error-elem{
+    margin-top: 5px;
+    color: red;
+    font-size: 0.6rem;
+}
+
+.success-message{
+    font-size: 1rem;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-right: 105px;
+    font-family: 'iranyekanwebmedium';
+    color: #a0eede;
+}

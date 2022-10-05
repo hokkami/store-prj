@@ -1,0 +1,20 @@
+import React ,{useContext} from 'react'
+import productsContext from "../../Context/ProductsContext";
+import './Survey.css'
+
+
+export default function Survey(){
+
+    const contextData = useContext(productsContext)
+
+    return(
+        <>
+        <h1></>
+        {
+            contextData.questions.map(question=>(
+                <h1>{question[0]}</h1>
+                ))
+        }
+        </>
+    )
+}

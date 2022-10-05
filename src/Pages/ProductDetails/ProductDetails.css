@@ -1,0 +1,152 @@
+.product-main-container {
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product-details-top-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.product-brand-latin {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.product-details-img-container {
+  flex: 1;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+.main-product-details {
+  flex: 2;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.title-product-container {
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+}
+
+.product-title {
+  align-items: center;
+  font-family: 'YekanBakhHeavy'!important;
+  padding-top: 10px;
+}
+
+.product-details-property-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-property-list-container {
+  display: flex;
+}
+
+.product-property-list {
+  flex: 2;
+  height: 557px;
+  padding-top: 70px;
+}
+
+.product-property-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-property-container label {
+  color: gray;
+  margin-left: 1rem;
+}
+.product-price-container {
+  flex: 2;
+  display: block;
+  width: 20px;
+  height: 400px;
+  padding-top: 10px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.product-delivery{
+  position: absolute;
+  margin-top: 55px;
+  margin-right: 55px;
+}
+
+.product-return{
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 55px;
+}
+
+.product-count{
+  position: absolute;
+  margin-top: 145px;
+  margin-right: 55px;
+}
+
+.product-price-item {
+  background-color: var(--black);
+  color: var(--white);
+  position: absolute;
+  bottom: 100px;
+  width: 250px;
+  height: 35px;
+  text-align: center;
+  margin-right: 55px;
+  border-radius: 5px;
+  padding-top: 7px;
+}
+
+.body-details p {
+  height: auto;
+  width: 100%;
+  text-align: justify;
+  overflow: visible;
+  line-height: 2;
+  margin: 30px;
+}
+
+.product-img {
+  max-width: 600px;
+  width: 330px;
+  height: 400px;
+  overflow: hidden;
+  display: block;
+  object-fit: cover;
+}
+
+.product-desc {
+  line-height: 2rem;
+}
+
+.product-spec {
+  text-decoration: none;
+}
+
+.product-items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-items-container label {
+  width: 100px;
+  color: gray;
+  margin-left: 15rem;
+}
+
+.product-items-container li {
+  width: 500px;
+  border-bottom: 1px solid var(--gold);
+}
